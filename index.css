@@ -13,7 +13,7 @@
         .navbar li{
             float:right;
             list-style: none; 
-            margin: 30px 40px;
+            margin: 30px 45px;
             
         }
         .navbar li a{
@@ -22,14 +22,14 @@
             color: black;
         }
         .navbar li a:hover{
-            color: red
+            color:green;
         }
-        .icon{
+     /*   .icon{
             float: left;
             color: black;
             padding: 20px 75px;
             font-size: 120%;
-        }
+        }*/
 
         /*end navigation*/
 
@@ -43,7 +43,7 @@
   text-decoration: none;
   display: inline-block;
   font-size: 100%;
-  margin: 10% 09%;
+  margin: 10px 110px;
   cursor: pointer;
 }
 .button5 {border-radius: 50%;}
@@ -61,6 +61,15 @@ footer  div{
     text-align: center;
     display: inline-block;
   font-size: 100%;
-  margin: 1% 07%;
+  margin: 10px 70px;
   cursor: pointer;
 }
+footer div li{
+    list-style: none;
+}
+footer div li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+
