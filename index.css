@@ -1,4 +1,4 @@
-        *{
+      *{
             padding: 0;
             margin: 0;
         }
@@ -32,6 +32,7 @@
         }*/
 
         /*end navigation*/
+
 /*dropdown start*/
 
 /* The dropdown container */
@@ -89,6 +90,7 @@
 
 /*dropdown end*/
 
+
 /* start service */
 .button {
   background-color: #04AA6D; /* Green */
@@ -99,12 +101,14 @@
   text-decoration: none;
   display: inline-block;
   font-size: 100%;
-  margin: 10px 110px;
+  margin: 10px 100px;
   cursor: pointer;
 }
 .button5 {border-radius: 50%;}
 
 /* end service */
+/*
+start footer*/
 footer{
     background-color: #EDF8EB; 
 }
@@ -117,7 +121,7 @@ footer  div{
     text-align: center;
     display: inline-block;
   font-size: 100%;
-  margin: 10px 70px;
+  margin: 10px 85px;
   cursor: pointer;
 }
 footer div li{
@@ -128,4 +132,107 @@ footer div li a{
     text-decoration: none;
     color: black;
 }
+/*end footer*/
 
+/*start login*/
+#loginimage{
+    float: left;
+    }
+#loginimage img{
+  position: absolute;
+  height: 1330px;
+  width: 2000px;
+  top: -10%;
+  right: 48%;
+  transform: translateY(-50%);
+  border-radius: 40%;
+  z-index: 6;
+}
+#loginform{
+    float: left;
+    padding-left:60%;
+    padding-top: 3%;
+}
+.logininp{
+  max-width: 300px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 10px 0;
+  height: 40px;
+  border-radius: 55px;
+  display: grid;
+  
+  padding: 0 0.4rem;
+  position: relative;
+}
+.loginbtn{
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin: 10px 100px;
+  cursor: pointer;
+  border-radius: 45%;
+}
+.backbtn{
+     background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 3%;
+  text-align: right;
+  text-decoration: none;
+  
+  font-size: 100%;
+  margin: 10px 0px;
+  cursor: pointer;
+  border-radius: 43%;
+}
+/* end login*/
+/*
+start signup*/
+#signimage img{
+  position: absolute;
+  height: 1330px;
+  width: 2000px;
+  top: -10%;
+  right: 48%;
+  transform: translateY(-50%);
+  border-radius: 40%;
+  z-index: 6;
+}
+
+#signform{
+    float: left;
+    padding-left:60%;
+    padding-top: 0.5%;
+}
+
+.signupinp{
+  max-width: 300px;
+  width: 100%;
+  background-color: #f0f0f0;
+  margin: 0.5px 0;
+  height: 30px;
+  border-radius: 55px;
+  display: grid;
+  padding: 0 0.4rem;
+  position: relative;
+}
+.signupbtn{
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 5%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin: 10px 100px;
+  cursor: pointer;
+  border-radius: 45%;
+}
+/*end signup*/
