@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+  .navbar{
+            background-color: #EDF8EB;
+            height: 100px;
+            
+        }
+
+        .icon H1{
+            padding-top:0PX;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float:right;
+            list-style: none; 
+            margin: 30px 40px;
+
+            
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+             list-style: none; 
+            color: black;
+        }
+        .navbar li a:hover{
+            color: red
+        }
+        .icon{
+            float: left;
+            color: black;
+            padding: 20px 75px;
+            font-size: 120%;
+        }
+        figcaption{
+            text-align: center;
+            font-size: 50px;
+        }
+        .market1{
+            width: 1050px;
+            height: 250px;
+            margin: 2px;
+            padding: 2px 140px;
+        }
+        .market2{
+            width: 500px;
+            height: 300px;
+            margin-bottom: 10px;
+            margin: 2px;
+            padding: 2px 90px;
+        }
+        .market4{
+            width: 500px;
+            height: 300px;
+            margin-bottom: 10px;
+            position: relative;
+            margin: 2px;
+            padding: 2px 40px;
+        }
+        #mazao{
+            border: 2000px white;
+        }
+
