@@ -236,11 +236,13 @@ start signup*/
   border-radius: 45%;
 }
 /*end signup*/
+
+
 /*crops*/
         /*div ads*/
      #content td{
-        padding: 0px 30px 0px 40px;
-        margin: 0;
+        padding: 0px;
+        margin: 0px;
         background-color: #EDF8EB;
      }
      /*#heading td{
@@ -254,7 +256,7 @@ start signup*/
         width: 50px;
      }
      figcaption p{
- align-content: right;
+        align-content: right;
      }
      .cropbox{
         background-color: #EDF8EB;
@@ -267,21 +269,25 @@ start signup*/
   
 
 .container {
-    margin: 40px;
+    margin: 20px;
     /*box-shadow: 0px 0px 10px;*/
-    padding: 10px;
+    text-align: left;
+    padding: 20px;
     width: 200px;
     height: 200px;
     background: #EDF8EB;
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /*justify-content: center;*/
    /* margin: 4px 0px;*/ 
-    border: 10px white;
+    
     border-radius: 20%;
 }
-
+.container h1{
+  justify-content: center;
+  text-align: center;
+}
 .search{
     text-align: center;
     color: black;
@@ -298,9 +304,9 @@ start signup*/
   
 }
 #details{
-  background-color: grey/*#04AA6D*/; /* Green */
+  background-color: #04AA6D/*#04AA6D*/; /* Green */
   border: none;
-  color: white;
+  color: black;
   padding: 5%;
   text-align: center;
   text-decoration: none;
