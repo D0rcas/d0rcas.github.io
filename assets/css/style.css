@@ -2939,3 +2939,77 @@ market home*/
   text-align: center;
   font-size: 16px;
 }
+
+
+/*progresss*/
+#prog{
+  padding: 80px;
+}
+
+
+  
+#prog ul li{
+  text-decoration: none;
+  float: right;
+  list-style-type:none;
+margin-right: 120px;
+}
+#doo{
+  margin-left: 5%;
+  height:500px;
+  width:90%;
+  background-color: #89c992;
+  border-radius: 20px;
+}
+#doo ol li{
+
+  display: inline-block;
+  font-family:all;
+  font-size: 20px;
+  list-style-type: circle;
+}
+
+
+/*payment*/
+
+#left{
+ float: left;
+
+}
+
+#left img{
+   width: 100%;
+ position: fixed;
+ border-radius: 50%;
+height: 100%;
+left: -50%;
+z-index: 6;
+top: 13%;
+
+}
+
+#right{
+ float: left;
+padding-left: 60%;
+padding-top: 80px;
+}
+
+.paye{
+  padding:8%;
+}
+#right button{
+  float: right;
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: black;
+  padding: 1%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 100%;
+  margin: 4px 4px;
+  cursor: pointer;
+  border-radius: 35%;
+  width: 100px;
+}
+
