@@ -1,3 +1,9 @@
+/**
+* Template Name: eBusiness - v4.3.0
+* Template URL: https://bootstrapmade.com/ebusiness-bootstrap-corporate-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
 
 /*--------------------------------------------------------------
 # General
@@ -2477,11 +2483,11 @@ footer{
 footer  div{
     background-color: #EDF8EB;
     padding: 5%;
-   text-align:left;
+   text-align: left;
     text-decoration: none;
     display: inline-block;
-    text-align: center;
-    display: inline-block;
+    
+    
   font-size: 100%;
   margin: 10px 85px;
   cursor: pointer;
@@ -3012,4 +3018,3 @@ padding-top: 80px;
   border-radius: 35%;
   width: 100px;
 }
-
