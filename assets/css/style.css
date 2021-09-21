@@ -2541,10 +2541,10 @@ footer div li a{
     float: left;
     }
 #loginimage img{
-  position: absolute;
-  height: 1330px;
-  width: 150%;
-  top: -10%;
+   position: absolute;
+  height: 200%;
+  width: 2000px;
+  top: 0%;
   right: 48%;
   transform: translateY(-50%);
   border-radius: 40%;
@@ -2598,7 +2598,7 @@ footer div li a{
 start signup*/
 #signimage img{
   position: absolute;
-  height: 1330px;
+  height: 200%;
   width: 5000px;
   top: -10%;
   right: 48%;
